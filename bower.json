@@ -1,5 +1,5 @@
 {
-  "name": "ngPrettyCurrency",
+  "name": "ng-pretty-currency",
   "version": "0.0.0",
   "authors": [
     "Steven Lu <tacticalazn@gmail.com>"
@@ -7,7 +7,7 @@
   "description": "Converts three character currency codes to symbols",
   "main": "ng-pretty-currency.js",
   "license": "MIT",
-  "homepage": "https://github.com/sjlu/ngPrettyCurrency",
+  "homepage": "https://github.com/sjlu/ng-pretty-currency",
   "ignore": [
     "**/.*",
     "node_modules",
