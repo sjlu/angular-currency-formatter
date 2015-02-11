@@ -25,6 +25,8 @@ angular.module('ngPrettyCurrency', []).directive('ngPrettyCurrency', function() 
     'EUR': '€'
   };
   return function(input) {
+    if (!input) return "";
+
     input = input.toUpperCase();
     if (codeToSigns[input]) {
       return codeToSigns[input];
