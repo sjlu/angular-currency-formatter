@@ -5,7 +5,6 @@ angular.module('ngPrettyCurrency', []).directive('ngPrettyCurrency', function() 
       ngModel: '=',
       currencyCode: '='
     },
-    require: ['^currencyCode'],
     template: '<span class="pretty-currency-symbol">{{currencyCode | symbol | html}}</span><span ng-hide="attrs.hideAmount" class="pretty-currency-amount">{{ngModel | number:2}}</span>',
     link: function($scope, $element, attrs) {
       $scope.attrs = attrs;
