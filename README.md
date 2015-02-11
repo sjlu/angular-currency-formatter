@@ -18,7 +18,7 @@ Converts three character currency codes (*EUR*) into their respective symbol (*â
 
 * Use it like this
 
-        <ng-pretty-currency currency-code="tx.metadata.currency_type" ng-model="tx.amount" hide-amount="false"></ng-pretty-currency>
+        <ng-pretty-currency currency-code="currency_type" ng-model="amount" hide-amount="false"></ng-pretty-currency>
 
 ### License
 
