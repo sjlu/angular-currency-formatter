@@ -6,7 +6,7 @@ Converts three character currency codes (*EUR*) into their respective symbol (*â
 
 * Install using Bower
 
-        bower install ngPrettyCurrency --save
+        bower install ng-pretty-currency --save
 
 * Add the script
 
