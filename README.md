@@ -1,4 +1,4 @@
-## ngPrettyCurrency
+## ng-pretty-currency
 
 Converts three character currency codes (*EUR*) into their respective symbol (*€*).
 
